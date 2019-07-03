@@ -1,0 +1,1 @@
+train10_sqrt_mag_aug.h5

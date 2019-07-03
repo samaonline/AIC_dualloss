@@ -1,0 +1,19 @@
+net: "prototxt/siamese_cwCONTR_LOSS_WEIGHT.prototxt"
+test_iter: 1000
+test_interval: 1000
+weight_decay: 0.0005
+base_lr: GRIDVALUE
+momentum: 0.9
+
+lr_policy: "step"
+gamma: 0.9
+stepsize: 5000
+
+display: 100
+
+max_iter: 100000
+
+snapshot: 5000
+snapshot_prefix: "snapshots/snapshot_siamese_cwCONTR_LOSS_WEIGHT_lrGRIDVALUE"
+
+solver_mode: GPU
