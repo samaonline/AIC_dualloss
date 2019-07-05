@@ -384,7 +384,7 @@ layer {
   layer {
     name: "center_loss"
     type: "CenterLoss"
-    bottom: "fc6"
+    bottom: "fc7"
     bottom: "labels"
     top: "center_loss"
     loss_weight: CONTR_LOSS_WEIGHT

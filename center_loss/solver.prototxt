@@ -1,4 +1,4 @@
-net: "prototxt/siamese_cwCONTR_LOSS_WEIGHT.prototxt"
+net: "center_fc7.prototxt"
 test_iter: 1000
 test_interval: 1000
 weight_decay: 0.0005
@@ -14,6 +14,6 @@ display: 100
 max_iter: 100000
 
 snapshot: 5000
-snapshot_prefix: "snapshots/snapshot_siamese_cwCONTR_LOSS_WEIGHT_lrGRIDVALUE"
+snapshot_prefix: "snapshots/center_fc7_lrGRIDVALUE"
 
 solver_mode: GPU
